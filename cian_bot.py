@@ -22,8 +22,7 @@ def update():
     df = pd.DataFrame(data=np.concatenate([links, costs]).reshape(2, len(links)).T, columns=['Ссылки', 'Цена'])
     return df
   
-  
-  
+    
 @bot.message_handler(content_types=['text'])
 def get_text_messages(message):
     if message.text == "Привет":
