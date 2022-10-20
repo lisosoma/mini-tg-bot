@@ -7,7 +7,7 @@ First you need to install this frameworks:
     pip install pyTelegramBotAPI
     pip install fake_useragent
 
-Next you need to rin this command:
+Next you need to run this command:
 
     python cian_bot.py
     
